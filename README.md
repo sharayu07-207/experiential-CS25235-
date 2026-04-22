@@ -5,7 +5,6 @@ code
 <head>
 <title>EasyPass Generator</title>
 </head>
-
 <body>
 
 
