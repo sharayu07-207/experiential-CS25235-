@@ -10,7 +10,7 @@ code
 <header>
 <table width="100%"cellpadding="10">
 <tr>
-  
+
 <td align="center"><b>
 <a href="#home">Home</a> |
 <a href="#tool">Generator</a> |
