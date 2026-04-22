@@ -6,8 +6,7 @@ code
 <title>EasyPass Generator</title>
 </head>
 <body>
-
-
+  
 <header>
 <table width="100%"cellpadding="10">
 <tr>
