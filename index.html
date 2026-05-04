@@ -1,0 +1,176 @@
+# experiential-CS25235-
+code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EasyPass Generator</title>
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+body {
+    background: #fa98de;
+}
+
+/* Hero */
+#home {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Card shadow tweak */
+.card {
+    border-radius: 12px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container">
+    <a class="navbar-brand" href="#">EasyPass</a>
+
+    <div>
+        <a class="nav-link d-inline text-white" href="#home">Home</a>
+        <a class="nav-link d-inline text-white" href="#tool">Generator</a>
+        <a class="nav-link d-inline text-white" href="#features">Benefits</a>
+        <a class="nav-link d-inline text-white" href="#pricing">Plans</a>
+    </div>
+</div>
+</nav>
+
+<!-- HERO -->
+<section id="home">
+    <h1>🔑 Smart Password Creator</h1>
+    <p>Create strong and unique passwords instantly</p>
+    <a href="#tool" class="btn btn-success">Start Generating</a>
+</section>
+
+<hr>
+
+<!-- TOOL -->
+<section id="tool" class="py-5">
+<div class="container d-flex justify-content-center">
+<div class="card p-4 shadow" style="width: 400px;">
+
+    <h3 class="text-center mb-3">Password Tool</h3>
+
+    <input type="text" class="form-control mb-3" value="XyZ@456abc!">
+
+    <div class="d-flex gap-2 mb-3">
+        <button class="btn btn-success w-100">Generate</button>
+        <button class="btn btn-secondary w-100">Copy</button>
+    </div>
+
+    <label><b>Strength Level</b></label>
+    <progress value="70" max="100" class="w-100"></progress>
+    <small class="text-muted">Good</small>
+
+    <div class="mt-3">
+        <label>Password Length: 12</label>
+        <input type="range" min="6" max="25" value="12" class="form-range">
+    </div>
+
+    <fieldset class="border p-3 rounded mt-3">
+        <legend class="w-auto px-2">Options</legend>
+
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" checked>
+            <label class="form-check-label">Uppercase</label>
+        </div>
+
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" checked>
+            <label class="form-check-label">Lowercase</label>
+        </div>
+
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" checked>
+            <label class="form-check-label">Numbers</label>
+        </div>
+
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox">
+            <label class="form-check-label">Special Symbols</label>
+        </div>
+    </fieldset>
+
+    <button class="btn btn-success mt-3 w-100">Generate Password</button>
+
+</div>
+</div>
+</section>
+
+<!-- FEATURES -->
+<section id="features" class="py-5">
+<div class="container">
+<div class="row text-center">
+
+    <div class="col-md-4 mb-3">
+        <div class="card p-3 shadow-sm">
+            <h4>🔒 Secure</h4>
+            <p>Your passwords stay private</p>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+        <div class="card p-3 shadow-sm">
+            <h4>⚡ Fast</h4>
+            <p>Generate instantly</p>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-3">
+        <div class="card p-3 shadow-sm">
+            <h4>📱 Easy</h4>
+            <p>Simple interface</p>
+        </div>
+    </div>
+
+</div>
+</div>
+</section>
+
+<hr>
+
+<!-- PRICING -->
+<section id="pricing" class="py-5">
+<div class="container text-center">
+
+    <h2 class="mb-4">Choose Your Plan</h2>
+
+    <div class="row justify-content-center">
+
+        <div class="col-md-4">
+            <div class="card p-3 shadow">
+                <h4>Starter</h4>
+                <p>Basic generator</p>
+                <h5>₹0</h5>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card p-3 shadow">
+                <h4>Advanced</h4>
+                <p>Extra security features</p>
+                <h5>₹150/month</h5>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center p-3">
+    © 2026 EasyPass | Secure Your Digital Life
+</footer>
+
+</body>
+</html>
